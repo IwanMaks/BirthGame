@@ -159,7 +159,7 @@ GameManager.prototype.updateScore = function (data) {
   } else {
     this.loss++;
     this.HTMLredraw.updateLossCount({ loss: this.loss });
-    if (this.loss > 2 && !this.over) { //ТУТ ИЗМЕНЯТЬ КОЛИЧЕСВТО ПРОИГРЫША
+    if (this.loss > 1000 && !this.over) { //ТУТ ИЗМЕНЯТЬ КОЛИЧЕСВТО ПРОИГРЫША
       this.gameOver();
     }
   }

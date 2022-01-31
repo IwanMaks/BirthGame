@@ -63,64 +63,64 @@ h3 {
    * Basket
    */
   #game-wrap .basket {
-      width: 214px;
-      height: 141px;
+      width: 12.35%;
+      height: 16.47%;
     position: absolute;
   }
     #game-wrap[data-bx="0"][data-by="1"] .basket {
-      width: 214px;
-      height: 141px;
+      width: 12.35%;
+      height: 16.47%;
       background: transparent url('../img/basket/basket-p-0-1.png') center center no-repeat;
         background-size: cover;
-      top: 550px;
-      left: 500px;
+      top: 58.25%;
+      left: 26.04%;
     }
     #game-wrap[data-bx="1"][data-by="1"] .basket {
-        width: 214px;
-        height: 141px;
+        width: 12.35%;
+        height: 16.47%;
       background: transparent url('../img/basket/basket-p-1-1.png') center center no-repeat;
         background-size: cover;
-        top: 550px;
-      right: 500px;
+        top: 58.25%;
+      right: 26.04%;
     }
     #game-wrap[data-bx="0"][data-by="0"] .basket {
-        width: 214px;
-        height: 141px;
+        width: 12.35%;
+        height: 16.47%;
       background: transparent url('../img/basket/basket-p-0-0.png') center center no-repeat;
         background-size: cover;
-      left: 500px;
-      bottom: 150px;
+      left: 25.03%;
+      bottom: 13.9%;
     }
     #game-wrap[data-bx="1"][data-by="0"] .basket {
-        width: 214px;
-        height: 141px;
+        width: 12.35%;
+        height: 16.47%;
       background: transparent url('../img/basket/basket-p-1-0.png') center center no-repeat;
         background-size: cover;
-      right: 500px;
-      bottom: 150px;
+      right: 25.03%;
+      bottom: 13.9%;
     }
 
   /*
    * Wolf
    */
   #game-wrap .wolf {
-    width: 75px;
-    height: 210px;
+    width: 7.95%;
+    height: 10.94%;
     position: absolute;
   }
     #game-wrap[data-bx="0"] .wolf {
-      width: 252px;
-      height: 336px;
-      top: 460px;
-      left: 650px;
+      width: 13.5%;
+      height: 35%;
+      top: 48.2%;
+      left: 33.86%;
       background: transparent url('../img/wolf/wolf-p-0.png') center center no-repeat;
         background-size: cover;
     }
     #game-wrap[data-bx="1"] .wolf {
-        width: 252px;
-        height: 336px;
-        top: 460px;
-      right: 650px;
+        width: 13.5%;
+        height: 35%;
+        top: 48.2%;
+      right: 33.86%;
       background: transparent url('../img/wolf/wolf-p-1.png') center center no-repeat;
         background-size: cover;
     }
