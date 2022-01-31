@@ -133,8 +133,8 @@ h3 {
   #game-wrap .egg {
     width: 52px;
     height: 68px;
-    background: transparent url('../img/egg/egg.png') center center no-repeat;
-      background-size: contain;
+    background: transparent url('../img/eggs/egg-2.png') center center no-repeat;
+    background-size: contain;
     position: absolute;
   }
     #game-wrap[data-egg-0="0"] .egg.e-0,
@@ -394,7 +394,7 @@ h3 {
     width: 242px;
     height: 50px;
     background: transparent url('../img/loss/loss.png') left top no-repeat;
-      background-size: cover;
+    background-size: cover;
     position: absolute;
     top: 130px;
     left: 495px;

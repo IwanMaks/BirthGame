@@ -30,7 +30,7 @@ GameManager.prototype.init = function () {
   this.speed = 800;
   // this.maxSpeed = 200;
   this.interval = this.speed*2.5;
-  this.point = 2;
+  this.point = 1;
 
   this.chickens = {};
   this.eggs = {};
@@ -147,6 +147,11 @@ GameManager.prototype.updateScore = function (data) {
   if (this.grid.list[data.egg].x == this.basket.x && this.grid.list[data.egg].y == this.basket.y) {
     this.score += this.point;
     this.HTMLredraw.updateScore({ value: this.score });
+
+    if (this.score === 21) {
+        location.replace('https://www.youtube.com/watch?v=dQw4w9WgXcQ')
+        return false
+    }
 
     if (this.score >= 1000) {
       this.gameWin();
