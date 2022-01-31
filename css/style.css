@@ -133,7 +133,7 @@ h3 {
   #game-wrap .egg {
     width: 52px;
     height: 68px;
-    background: transparent url('../img/eggs/egg-2.png') center center no-repeat;
+    background: transparent url('../BirthGame/img/eggs/egg-2.png') center center no-repeat;
     background-size: contain;
     position: absolute;
   }

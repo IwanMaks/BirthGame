@@ -80,7 +80,7 @@ Egg.prototype.run = function(speed, callback) {
   this.callback = callback;
 
   var self = this;
-  document.querySelector(`.e-${self.chicken}`).style.backgroundImage = `url(../img/eggs/egg-${Math.floor(Math.random() * 5)}.png)`
+  document.querySelector(`.e-${self.chicken}`).style.backgroundImage = `url(../BirthGame/img/eggs/egg-${Math.floor(Math.random() * 5)}.png)`
 
   this.timer = setInterval(function() {
     self.nextStep();
