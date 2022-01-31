@@ -148,10 +148,10 @@ GameManager.prototype.updateScore = function (data) {
     this.score += this.point;
     this.HTMLredraw.updateScore({ value: this.score });
 
-    if (this.score === 21) {
-        location.replace('https://www.youtube.com/watch?v=dQw4w9WgXcQ')
-        return false
-    }
+    // if (this.score === 21) {
+    //     location.replace('https://www.youtube.com/watch?v=dQw4w9WgXcQ')
+    //     return false
+    // }
 
     if (this.score >= 1000) {
       this.gameWin();
