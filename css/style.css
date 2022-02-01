@@ -9,7 +9,7 @@ html, body {
 body {
   margin: 0;
   padding: 0;
-	background: #564e47 url('../img/game-wrap-bg.png');
+	background: linear-gradient(180deg, #BF801B 0%, #FDD37D 46.32%, #FFF5D2 100%);;
 	color: #9A998E;
   font-size: 14px;
   line-height: 1.2em;
